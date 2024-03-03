@@ -1,0 +1,38 @@
+
+:root{
+  --clr-primary : #000000;
+  --clr-white:#ffffff;
+  --clr-black:#000000;
+  --clr-bg: #88e485;
+  --clr-heart:#d85a5a;
+}
+
+.custom-btn{
+  color:var(--clr-primary);
+  background-color:var(--clr-bg);
+  cursor:pointer;
+  border-radius:10px;
+  border:none;
+}
+
+.custom-btn-secondary{
+  color:var(--clr-black);
+  border-radius:5px;
+}
+
+.heart {
+  color:var(--clr-heart)
+}
+
+.iframe-container{
+  position:relative;
+  padding-top:56.25%;
+  background-color:pink;
+ 
+}
+
+.iframe-container iframe{
+  
+  
+  height:100%;
+}
